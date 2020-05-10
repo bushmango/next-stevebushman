@@ -933,6 +933,13 @@
   dependencies:
     "@fortawesome/fontawesome-common-types" "^0.2.28"
 
+"@fortawesome/free-brands-svg-icons@^5.13.0":
+  version "5.13.0"
+  resolved "https://registry.yarnpkg.com/@fortawesome/free-brands-svg-icons/-/free-brands-svg-icons-5.13.0.tgz#e79de73ba6555055204828dca9c0691e7ce5242b"
+  integrity sha512-/6xXiJFCMEQxqxXbL0FPJpwq5Cv6MRrjsbJEmH/t5vOvB4dILDpnY0f7zZSlA8+TG7jwlt12miF/yZpZkykucA==
+  dependencies:
+    "@fortawesome/fontawesome-common-types" "^0.2.28"
+
 "@fortawesome/free-regular-svg-icons@^5.13.0":
   version "5.13.0"
   resolved "https://registry.yarnpkg.com/@fortawesome/free-regular-svg-icons/-/free-regular-svg-icons-5.13.0.tgz#925a13d8bdda0678f71551828cac80ab47b8150c"
@@ -973,6 +980,11 @@
   integrity sha512-2+FrkXY4zllzTNfJth7jOqEHC+enpLeGslEhpnTAkg21GkRrWV4SsAtqchtT4YS9/nODBU2/ZfsBY2X4J/dX7A==
   dependencies:
     "@types/node" "*"
+
+"@types/eases@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@types/eases/-/eases-1.0.0.tgz#9babb13831fb5dd5a03b648d3f8b6b057aaea7fa"
+  integrity sha512-uv9+zJStXd9DpFnQRuE8Ko7IrqOtKt0UiQketRjCAHIR8tg9dGfOnNMBBObsEc7/T2oey99X9fnpmi7fdxCuRQ==
 
 "@types/express-serve-static-core@*":
   version "4.17.5"
@@ -2895,6 +2907,11 @@ dynamic-dedupe@^0.3.0:
   integrity sha1-BuRMIj9eTpTXjvnbI6ZRXOL5YqE=
   dependencies:
     xtend "^4.0.0"
+
+eases@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/eases/-/eases-1.0.8.tgz#f1f5069a6b6ed2ea510f9c6110398d63efe9aee6"
+  integrity sha1-8fUGmmtu0upRD5xhEDmNY+/pruY=
 
 ecc-jsbn@~0.1.1:
   version "0.1.2"
