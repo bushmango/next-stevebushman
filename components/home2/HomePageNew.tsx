@@ -28,7 +28,7 @@ const Header = () => (
   <div className='header-2'>
     <div className='header-left'>
       <div className='header-photo'>
-        <img src='/public/images/profilecroppedcircle.png' />
+        <img src='/images/profilecroppedcircle.png' />
       </div>
       <div>
         <div className='header-name'>Steve Bushman</div>
@@ -48,7 +48,7 @@ const Header = () => (
 //   <div className="section2">
 //     <Parallax
 //       bgImage={
-//         '/public/images/pexels/apple-black-and-white-black-and-white-169573.jpg'
+//         '/images/pexels/apple-black-and-white-black-and-white-169573.jpg'
 //       }
 //       strength={500}
 //     >
@@ -68,7 +68,7 @@ const BigBanner2 = () => {
           layers={
             [
               {
-                image: '/public/images/pexels/apple-cropped.jpg',
+                image: '/images/pexels/apple-cropped.jpg',
                 amount: 0.4,
                 slowerScrollRate: false,
               },
@@ -104,7 +104,7 @@ const Footer = () => (
     <div>
       {/* <Parallax
                 bgImage={
-                  '/public/images/32937234_10211325904719766_9214946423416553472_n.jpg'
+                  '/images/32937234_10211325904719766_9214946423416553472_n.jpg'
                 }
                 strength={200}
               >
@@ -114,7 +114,7 @@ const Footer = () => (
 
       <img
         className='footer-image'
-        src='/public/images/32937234_10211325904719766_9214946423416553472_n.jpg'
+        src='/images/32937234_10211325904719766_9214946423416553472_n.jpg'
       />
     </div>
     <div className='contact-me'>
@@ -191,7 +191,7 @@ export const HomePageNew = () => {
             {/* <div>
                 <Parallax
                   bgImage={
-                    '/public/images/pexels/apple-black-and-white-black-and-white-169573.jpg'
+                    '/images/pexels/apple-black-and-white-black-and-white-169573.jpg'
                   }
                   strength={500}
                 >
@@ -221,7 +221,7 @@ export const HomePageNew = () => {
             {/* <div>
                 <Parallax
                   bgImage={
-                    '/public/images/pexels/apple-black-and-white-black-and-white-169573.jpg'
+                    '/images/pexels/apple-black-and-white-black-and-white-169573.jpg'
                   }
                   bgImageAlt="the cat"
                   strength={200}

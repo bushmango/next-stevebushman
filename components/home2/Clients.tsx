@@ -28,13 +28,13 @@ let clientList = [
   {
     name: 'eduBakery',
     url: 'http://www.edubakery.com',
-    logo: '/public/images/eduBakery-Brenden-Logo-Compact.png',
+    logo: '/images/eduBakery-Brenden-Logo-Compact.png',
     //'http://edubakery.com/Images/Logos/eduBakery-Brenden-Logo-Compact.png',
   },
   {
     name: 'SwanLeap',
     url: 'https://swanleap.com/',
-    logo: '/public/images/2020-05-10 09_31_10-SwanLeap _ SwanLeap.png',
+    logo: '/images/2020-05-10 09_31_10-SwanLeap _ SwanLeap.png',
   },
   // {
   //   name: 'Where is Care',
