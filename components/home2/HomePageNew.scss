@@ -1,0 +1,362 @@
+$border-color: #00cc66;
+$border-size: 8px;
+$shadow-color: #026131;
+
+$color1: #00cc66;
+$color2: #3949ab;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+div.container-border {
+}
+div.container {
+}
+div.header {
+  padding: 1em;
+  background: #efe;
+}
+div.content {
+  padding: 1em 1em; /* bottom padding for footer */
+}
+div.footer {
+}
+
+body {
+  font-family: 'PT Sans', sans-serif;
+  border: solid $border-size $border-color;
+}
+.page-test {
+}
+
+.test-border {
+}
+
+.header-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid $border-size $border-color;
+
+  @media screen and (max-width: 1050px) {
+    flex-direction: column;
+  }
+}
+.header-left {
+  display: inline-flex;
+  align-items: center;
+}
+.header-name {
+  font-size: 2.5em;
+}
+.header-title {
+  font-size: 1.5em;
+}
+.header-photo {
+  img {
+    // position: relative;
+    // left: -15px;
+    // top: -15px;
+    padding: 4px;
+    display: block;
+    height: 100px;
+    width: auto;
+  }
+}
+
+.header-right {
+  font-size: 1.25em;
+  display: inline-flex;
+
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+  }
+
+  div {
+    padding: 10px;
+    @media screen and (max-width: 600px) {
+      padding: 5px;
+    }
+  }
+}
+
+.footer {
+  border-top: solid $border-size $border-color;
+
+  background-color: #262626;
+  color: white;
+
+  display: flex;
+  flex-wrap: wrap;
+  .footer-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    // @media screen and (max-width: 640px) {
+    //   width: 100%;
+    //   height: auto;
+    // }
+  }
+  .contact-me {
+    font-size: 2em;
+    @media screen and (max-width: 500px) {
+      font-size: 1.5em;
+    }
+    .contact-me-header {
+      font-size: 2em;
+      border-bottom: solid $border-size $border-color;
+      margin-bottom: 30px;
+      text-shadow: 4px 4px $shadow-color;
+    }
+    padding: 20px;
+
+    a {
+      color: white;
+      :active {
+        color: white;
+      }
+      :visited {
+        color: white;
+      }
+    }
+  }
+}
+
+.section1 {
+  font-size: 6em;
+  color: white;
+  text-shadow: 8px 8px $shadow-color;
+
+  background-color: #262626;
+  background-image: url('/public/images/pexels/apple-black-and-white-black-and-white-169573.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  min-height: 800px;
+
+  border-bottom: solid $border-size $border-color;
+  padding-left: 20px;
+}
+.section2-header {
+  font-size: 6em;
+  color: white;
+  text-shadow: 8px 8px $shadow-color;
+
+  min-height: 800px;
+
+  border-bottom: solid $border-size $border-color;
+  padding-left: 20px;
+}
+
+.section3 {
+  background-color: #262626;
+  border-bottom: solid $border-size $border-color;
+}
+.section3-header {
+  font-size: 6em;
+  color: white;
+  text-shadow: 8px 8px $shadow-color;
+  border-bottom: solid $border-size $border-color;
+  padding-left: 20px;
+
+  @media screen and (max-width: 700px) {
+    font-size: 4em;
+  }
+  @media screen and (max-width: 450px) {
+    font-size: 3em;
+  }
+}
+
+.tri-image-section {
+  display: flex;
+  justify-content: space-around;
+  img {
+    display: block;
+  }
+  .image {
+    width: 100%;
+    height: auto;
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    color: white;
+    text-shadow: 3px 3px $shadow-color;
+  }
+  :first-child {
+    margin-left: 0px;
+  }
+  :last-child {
+    margin-right: 0px;
+  }
+  .image1 {
+    background-image: url('/public/images/pexels/ai-blur-codes-577585.jpg');
+  }
+  .image2 {
+    // background-image: url('/public/images/pexels/black-and-white-computer-display-220357.jpg');
+
+    background-image: url('/public/images/pexels/black-and-white-design-high-angle-shot-929282.jpg');
+  }
+  .image3 {
+    background-image: url('/public/images/pexels/close-up-code-codes-239898.jpg');
+  }
+}
+
+.custom-bg {
+  background-image: url('/public/images/pexels/apple-black-and-white-black-and-white-169573.jpg');
+  background-size: cover;
+  background-position: center center;
+}
+
+.big-text {
+  font-size: 2em;
+}
+
+.buzz-section {
+  .buzz-header {
+    font-size: 1.25em;
+  }
+  .buzz-items {
+    display: flex;
+    div {
+      padding: 10px;
+    }
+  }
+  .buzz-spacer {
+    color: $shadow-color;
+  }
+}
+
+.buzz2-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.buzz2-section {
+  width: 260px;
+
+  border: solid 2px $color2;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+
+  .buzz2-header {
+    font-size: 1.25em;
+    height: 1.5em;
+    border-bottom: solid 2px $shadow-color;
+    // text-align: center;
+  }
+  .buzz2-items {
+    width: 200px;
+    display: inline-flex;
+    flex-direction: column;
+    div {
+      padding: 10px;
+    }
+  }
+  .buzz2-spacer {
+    color: $shadow-color;
+  }
+}
+
+.buzz3-section {
+  border: solid 2px $color2;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+
+  .buzz3-header {
+    font-size: 1.25em;
+    height: 1.5em;
+    border-bottom: solid 2px $shadow-color;
+    // text-align: center;
+  }
+  .buzz3-items {
+    display: inline-flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    div {
+      padding: 10px;
+    }
+  }
+  .buzz3-spacer {
+    color: $shadow-color;
+  }
+}
+
+.image-section {
+  img {
+    display: block;
+  }
+  .image {
+    width: 380px;
+    height: 380px;
+    background-size: cover;
+    background-position: center center;
+    margin: 5px;
+
+    color: white;
+    text-shadow: 3px 3px $shadow-color;
+    border-radius: 8px;
+  }
+  .image1 {
+    background-image: url('/public/images/pexels/ai-blur-codes-577585.jpg');
+  }
+  .image2 {
+    // background-image: url('/public/images/pexels/black-and-white-computer-display-220357.jpg');
+
+    background-image: url('/public/images/pexels/black-and-white-design-high-angle-shot-929282.jpg');
+  }
+  .image3 {
+    background-image: url('/public/images/pexels/close-up-code-codes-239898.jpg');
+  }
+}
+
+$clientBreakpoint: 730px;
+.client {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  @media screen and (max-width: $clientBreakpoint) {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+
+    :last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .client-image {
+    width: 150px;
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: 10px;
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+  .client-name {
+    font-size: 1.25em;
+    margin: 10px;
+    width: 200px;
+    text-align: right;
+
+    @media screen and (max-width: $clientBreakpoint) {
+      text-align: center;
+    }
+
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+}

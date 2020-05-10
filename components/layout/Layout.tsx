@@ -8,13 +8,17 @@ export const Layout = (props: { children: React.ReactNode; title: string }) => {
   return (
     <div className={css.layout}>
       <Head>
-        <title>{props.title}</title>
+        <title>SteveBushman.com</title>
         <meta charSet='utf-8' />
         <meta name='viewport' content='initial-scale=1.0, width=device-width' />
         <link
           href='https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap'
           rel='stylesheet'
         ></link>
+        <link
+          rel='stylesheet'
+          href='https://fonts.googleapis.com/css?family=Roboto:300,400,500|Luckiest+Guy'
+        />
       </Head>
 
       <div>

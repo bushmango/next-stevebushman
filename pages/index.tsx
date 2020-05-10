@@ -1,9 +1,10 @@
 import { NextPage } from 'next'
 import * as React from 'react'
-import { HomePage } from '../components/home/HomePage'
+import { HomePageNew } from '../components/home2/HomePageNew-sidecar'
+// import { HomePage } from '../components/home/HomePage'
 
 const Page: NextPage = () => {
-  return <HomePage />
+  return <HomePageNew />
 }
 
 export default Page

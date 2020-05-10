@@ -1,0 +1,67 @@
+@import './HomePageNew.scss';
+
+.jobs {
+  border: 2px solid $color2;
+  border-radius: 8px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.job-separator {
+  border-bottom: 2px solid $color2;
+  border-radius: 4px;
+  margin: 10px 0px;
+
+  div {
+    padding: 10px;
+  }
+}
+
+.job-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.job-header2 {
+  margin-left: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.job-title {
+  width: 800px;
+  font-size: 1.5em;
+  color: $shadow-color;
+}
+.job-time {
+  width: 250px;
+  font-size: 1.25em;
+}
+.job-company {
+  font-weight: bold;
+  color: #555;
+  font-size: 1.25em;
+  width: 200px;
+}
+.job-location {
+  font-size: 1.25em;
+}
+
+.job-details {
+  margin-left: 40px;
+  max-width: 800px;
+}
+
+.job-skills {
+  margin-bottom: 10px;
+}
+
+.job-clients {
+  margin-bottom: 10px;
+}
+.job-desc {
+}
