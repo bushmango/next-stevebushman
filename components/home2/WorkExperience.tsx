@@ -5,15 +5,29 @@ const jobs = [
   // {
   //   separator: true,
   // },
+
   {
-    title: 'Independent Software Contractor and Consultant',
+    title: 'Principal Software Engineer and UI/UX Engineering Manager',
+    location: 'Madison, WI',
+    company: 'SwanLeap',
+    start: '1/2019',
+    end: '5/2020',
+    skills: `Full Stack Web / Development and Management / Javascript / Typescript / React / Node.js / D3.js / Data Visualization / Amazon Web Services (AWS) / AWS Dynamo / AWS ElasticSearch / GIT Source Control / HTML / CSS`,
+    description: `Directed the User Interface and User Experience (UI/UX) department of 10+ developers. Built testing solutions, translation systems, architecture. Directed multiple projects at the same time from design to completion. Maintained and decommissioned legacy software.`,
+  },
+  {
+    separator: true,
+  },
+
+  {
+    title: 'Chief Technical Officer (CTO) of WhereIsCare', // Independent Senior Software Contractor and Consultant and
     company: 'SteveBushman.com',
     location: 'Madison, WI',
     start: '1/2018',
-    end: 'Present',
+    end: '1/2019',
     skills: `Full Stack Web / Mobile Development / Javascript / Typescript / React / Angular / Node.js / C++ / Java / C# / ASP.net / PostgreSQL / GIT Source Control / HTML / CSS + SASS / Linux Servers / Amazon Web Services / SEO / Google Analytics / Google Ads`,
-    clients:
-      'superwordcat.com / www.whereiscare.org / www.valuestreammodeling.com',
+    //clients:
+    // 'superwordcat.com / www.whereiscare.org / www.valuestreammodeling.com',
     description:
       'Front and back end web development, linux server administration, project modernization, team management',
   },
@@ -21,7 +35,7 @@ const jobs = [
     separator: true,
   },
   {
-    title: 'Software Contractor and Consultant',
+    title: 'Senior Software Contractor and Consultant',
     location: 'Madison, WI',
     company: 'Yahara Software',
     start: '5/2015',

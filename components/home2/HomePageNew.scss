@@ -63,6 +63,13 @@ body {
     display: block;
     height: 100px;
     width: auto;
+
+    &.photo-circle {
+      border-radius: 50%;
+      border: solid 4px #8d8d8d;
+      padding: 0px;
+      margin: 0px;
+    }
   }
 }
 

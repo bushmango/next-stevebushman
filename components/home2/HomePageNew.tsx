@@ -28,11 +28,14 @@ const Header = () => (
   <div className='header-2'>
     <div className='header-left'>
       <div className='header-photo'>
-        <img src='/images/profilecroppedcircle.png' />
+        {/* <img src='/images/profilecroppedcircle.png' /> */}
+        <img src='/images/photo_173.jpg' className='photo-circle' />
       </div>
       <div>
         <div className='header-name'>Steve Bushman</div>
-        <div className='header-title'>Software Engineer and Consultant</div>
+        <div className='header-title'>
+          Principal Software Engineer, Manager, and Consultant
+        </div>
       </div>
     </div>
     <div className='header-right'>
