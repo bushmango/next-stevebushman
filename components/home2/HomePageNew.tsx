@@ -23,6 +23,7 @@ const MailTo = () => (
 
 import { ParallaxProvider, ParallaxBanner } from 'react-scroll-parallax'
 import Head from 'next/head'
+import { Education } from './Education'
 
 const Header = () => (
   <div className='header-2'>
@@ -174,6 +175,7 @@ export const HomePageNew = () => {
 
             <Buzz />
             <WorkExperience />
+            <Education />
             <Clients />
             <AboutMe />
 

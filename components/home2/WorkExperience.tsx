@@ -7,6 +7,30 @@ const jobs = [
   // },
 
   {
+    title: 'Master Full-Stack Developer',
+    location: 'Washington, DC',
+    company: 'General Services Administration (GSA)',
+    start: '8/2021',
+    end: 'Present',
+    skills: `Full Stack Web / Development and Management / Javascript / Typescript / React / Node.js / Amazon Web Services (AWS) GIT Source Control / HTML / CSS / SCSS`,
+    description: `Upgrading legacy federal applications to manage the world's largest fleet of vehicles.`,
+  },
+  {
+    separator: true,
+  },
+  {
+    title: 'Chief Technical Officer (CTO)',
+    location: 'Madision, WI',
+    company: 'Keep Flying Games',
+    start: '5/2020',
+    end: 'Present',
+    skills: `Full Stack Web / Development and Management / Javascript / Typescript / React / Node.js / Phaser.js / Game Dev`,
+    description: `Build, managed, and marketed several games. Look forward to our catalog coming in late 2020.`,
+  },
+  {
+    separator: true,
+  },
+  {
     title: 'Principal Software Engineer and UI/UX Engineering Manager',
     location: 'Madison, WI',
     company: 'SwanLeap',
@@ -20,8 +44,8 @@ const jobs = [
   },
 
   {
-    title: 'Chief Technical Officer (CTO) of WhereIsCare', // Independent Senior Software Contractor and Consultant and
-    company: 'SteveBushman.com',
+    title: 'Chief Technical Officer (CTO)', // Independent Senior Software Contractor and Consultant and
+    company: 'WhereIsCare',
     location: 'Madison, WI',
     start: '1/2018',
     end: '1/2019',
@@ -29,7 +53,7 @@ const jobs = [
     //clients:
     // 'superwordcat.com / www.whereiscare.org / www.valuestreammodeling.com',
     description:
-      'Front and back end web development, linux server administration, project modernization, team management',
+      'WhereIsCare was a non-profit focused on helping people find homeless shelters, food pantries, and discounted health and dental resources. Front and back end web development, linux server administration, project modernization, team management',
   },
   {
     separator: true,
