@@ -7,10 +7,14 @@ let clientList = [
   //   logo: 'https://superwordcat.com/public/images/kitty/logo-cat-fat-small.png',
   // },
   {
+    name: 'General Services Administration',
+    url: 'https://www.gsa.gov',
+    logo: '/images/gsa-logo-2.png',
+  },
+  {
     name: 'Vusion',
     url: 'http://www.vusion.net',
-    logo:
-      'https://www.vusion.net/Portals/0/Vusion-logo.png?ver=2017-11-14-214443-170',
+    logo: 'https://www.vusion.net/Portals/0/Vusion-logo.png?ver=2017-11-14-214443-170',
     backgroundColor: '#4C9D2A',
   },
   {
@@ -22,8 +26,7 @@ let clientList = [
   {
     name: 'Johnson Controls',
     url: 'https://www.johnsoncontrols.com/',
-    logo:
-      'https://www.johnsoncontrols.com/-/media/jci/be/united-states/our-brands/final/johnson-controls.png?h=175&w=400&la=en&hash=BD13FF9939946B200825EE0159B69A1B5CE2C78E',
+    logo: 'https://www.johnsoncontrols.com/-/media/jci/be/united-states/our-brands/final/johnson-controls.png?h=175&w=400&la=en&hash=BD13FF9939946B200825EE0159B69A1B5CE2C78E',
   },
   {
     name: 'eduBakery',
