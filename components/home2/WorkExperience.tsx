@@ -23,7 +23,7 @@ const jobs = [
     location: 'Madision, WI',
     company: 'Keep Flying Games',
     start: '5/2020',
-    end: 'Present',
+    end: '8/2021',
     skills: `Full Stack Web / Development and Management / Javascript / Typescript / React / Node.js / Phaser.js / Game Dev`,
     description: `Build, managed, and marketed several games. Look forward to our catalog coming in late 2020.`,
   },

@@ -133,6 +133,8 @@ const BuzzBox3 = (props: { title: string; buzzList: string[] }) => (
 export const Buzz = () => (
   <div>
     {/* <div className="big-text">Full Stack Development</div> */}
+    <div className='big-text'>Technical Skills</div>
+
     <div className='image-section'>
       <div className='buzz2-boxes'>
         <div className='image image1' />

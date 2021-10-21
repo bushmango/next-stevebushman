@@ -24,6 +24,7 @@ const MailTo = () => (
 import { ParallaxProvider, ParallaxBanner } from 'react-scroll-parallax'
 import Head from 'next/head'
 import { Education } from './Education'
+import { Resume } from './Resume-sidecar'
 
 const Header = () => (
   <div className='header-2'>
@@ -45,6 +46,9 @@ const Header = () => (
         <MailTo />
       </div>
       <div>414.510.2140</div>
+      <div>
+        <a href='/docs/Steve Bushman - Resume 2021.pdf'>Résumé</a>
+      </div>
     </div>
   </div>
 )
@@ -129,6 +133,9 @@ const Footer = () => (
         <MailTo />
       </div>
       <div>414.510.2140</div>
+      <div>
+        <a href='/docs/Steve Bushman - Resume 2021.pdf'>Résumé</a>
+      </div>
     </div>
   </div>
 )
@@ -173,7 +180,9 @@ export const HomePageNew = () => {
                 and <strong>risk management</strong>
               </div> */}
 
+            <Resume />
             <Buzz />
+
             <WorkExperience />
             <Education />
             <Clients />
