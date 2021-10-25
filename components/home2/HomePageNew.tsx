@@ -27,28 +27,35 @@ import { Education } from './Education'
 import { Resume } from './Resume-sidecar'
 
 const Header = () => (
-  <div className='header-2'>
-    <div className='header-left'>
-      <div className='header-photo'>
-        {/* <img src='/images/profilecroppedcircle.png' /> */}
-        <img src='/images/photo_173.jpg' className='photo-circle' />
+  <div>
+    <div className='header-2'>
+      <div className='header-left'>
+        <div className='header-photo'>
+          {/* <img src='/images/profilecroppedcircle.png' /> */}
+          <img src='/images/photo_173.jpg' className='photo-circle' />
+        </div>
+        <div>
+          <div className='header-name'>Steve Bushman</div>
+          <div className='header-title'>
+            Principal Software Engineer, Manager, and Consultant
+          </div>
+        </div>
       </div>
-      <div>
-        <div className='header-name'>Steve Bushman</div>
-        <div className='header-title'>
-          Principal Software Engineer, Manager, and Consultant
+      <div className='header-right'>
+        <div>Madison, WI</div>
+        <div>
+          <MailTo />
+        </div>
+        <div>414.510.2140</div>
+        <div>
+          <a href='/docs/Steve Bushman - Resume 2021.pdf'>Résumé</a>
         </div>
       </div>
     </div>
-    <div className='header-right'>
-      <div>Madison, WI</div>
-      <div>
-        <MailTo />
-      </div>
-      <div>414.510.2140</div>
-      <div>
-        <a href='/docs/Steve Bushman - Resume 2021.pdf'>Résumé</a>
-      </div>
+    <div className='current-rates'>
+      <small>Current rate:</small> <span className='super'>$</span>
+      <strong>75-105/hr</strong>{' '}
+      <small>c2c &mdash; Keep Flying Studios, LLC</small>
     </div>
   </div>
 )
