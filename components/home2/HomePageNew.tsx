@@ -54,7 +54,7 @@ const Header = () => (
     </div>
     <div className='current-rates'>
       <small>Current rate:</small> <span className='super'>$</span>
-      <strong>75-105/hr</strong>{' '}
+      <strong>75-250/hr</strong>{' '}
       <small>c2c &mdash; Keep Flying Studios, LLC</small>
     </div>
   </div>
